@@ -2,9 +2,7 @@ public class Order {
     
     private int ID;
     private Date Date;
-    private int ProductID;
-    private int ProductQuantity;
-    private int StoreID;
+    
 
 
 
