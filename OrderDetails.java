@@ -6,7 +6,9 @@ public class OrderDetails {
 
 
 
-public OrderDetails(){
+public OrderDetails(int ProductID, int OrderID){
+    this.ProductID = ProductID;
+    this.OrderID = OrderID;
     
 }
 public int getProductID() {

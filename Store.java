@@ -7,8 +7,11 @@ public class Store {
 
 }
 
-public Store() {
-
+public Store(int ID, String address, String province, String city) {
+    this.ID = ID;
+    this.address = address;
+    this.province = province;
+    this.city = city;
 }
 
 public int getID() {

@@ -7,7 +7,11 @@ public class User {
 
 
 
-public User(){
+public User(int DNI, String FirstName, String LastName, int StoreID){
+    this.DNI = DNI;
+    this.FirstName = FirstName;
+    this.LastName = LastName;
+    this.StoreID = StoreID;
 
 }
 

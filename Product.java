@@ -7,7 +7,12 @@ public class Product {
 
 
     
-    public Product (){
+    public Product (int ID, String Type, String Manufacturer, String Model){
+        this.ID = ID;
+        this.Type = Type;
+        this.Manufacturer = Manufacturer;
+        this.Model = Model;
+
 
     }
 

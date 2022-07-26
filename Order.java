@@ -6,8 +6,10 @@ public class Order {
 
 
 
-public Order(){
-
+public Order(int ID, Date Date){
+    this.ID = ID;
+    this.Date = Date;
+    
 }
 
 
