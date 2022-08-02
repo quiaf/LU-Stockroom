@@ -2,6 +2,7 @@ public class OrderDetails {
     
     private int ProductID;
     private int OrderID;
+    private int ProductQuantity;
   
 
 
@@ -9,6 +10,7 @@ public class OrderDetails {
 public OrderDetails(int ProductID, int OrderID){
     this.ProductID = ProductID;
     this.OrderID = OrderID;
+    this.ProductQuantity = ProductQuantity;
     
 }
 public int getProductID() {
